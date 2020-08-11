@@ -2,13 +2,10 @@
 # dashgo_simulations
 Dashgo Simulation in URDF &amp; Gazebo
 
-Update ver 5:
+Update ver 6:
 ---
-https://github.com/AIR-Hust/dashgo_simulations
-
-Phiên bản 3 của Robot gồm:
----
-- Đế Robot, 2 bánh xe, thân Robot và Lidar
+https://github.com/hieudx97/dashgo_simulations.git
+- Đế Robot, 2 bánh xe Lidar
 - Tách riêng description và gazebo
 
 Hướng dẫn sử dụng (trong trường hợp chỉ tải dashgo_simulations):
@@ -17,7 +14,7 @@ $ cd dashgo_ws/src/dashgo
 
 $ sudo rm -r dashgo_description
 
-$ git clone https://github.com/AIR-Hust/dashgo_simulations
+$ git clone https://github.com/hieudx97/dashgo_simulations
 
 $ cd ~/dashgo_ws
 
@@ -33,16 +30,10 @@ roslaunch dashgo_description dashgo_description.launch
 Hướng dẫn Gmapping với giả lập:
 ---
 
-Chạy dashgo_world trên Gazebo:
+Chạy factory:
 ---
-roslaunch dashgo_gazebo dashgo_gazebo.launch
+roslaunch dashgo_gazebo factory.launch
 
-Các world khác: 
-- dashgo_house.launch
-- world_stage_1.launch
-- world_stage_2.launch
-- world_stage_3.launch
-- world_stage_4.launch
 
 Chạy Gmapping:
 ---
