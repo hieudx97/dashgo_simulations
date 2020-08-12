@@ -54,9 +54,9 @@ rosrun map_server map_saver -f ~/dashgo_ws/map
 Hướng dẫn Navigation với giả lập:
 ---
 
-Chạy dashgo_world trên Gazebo:
+Chạy factory trên Gazebo:
 ---
-roslaunch dashgo_gazebo dashgo_gazebo.launch
+roslaunch dashgo_gazebo facotry.launch
 
 Chạy Navigation:
 ---
