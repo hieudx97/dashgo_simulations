@@ -2,7 +2,7 @@
 # dashgo_simulations
 Dashgo Simulation in URDF &amp; Gazebo
 
-Update ver 6:
+Update ver 7:
 ---
 https://github.com/hieudx97/dashgo_simulations.git
 - Đế Robot, 2 bánh xe Lidar
@@ -32,7 +32,7 @@ Hướng dẫn Gmapping với giả lập:
 
 Chạy factory:
 ---
-roslaunch dashgo_gazebo factory.launch
+roslaunch dashgo_gazebo factory_dashgo.launch
 
 
 Chạy Gmapping:
@@ -54,9 +54,9 @@ rosrun map_server map_saver -f ~/dashgo_ws/map
 Hướng dẫn Navigation với giả lập:
 ---
 
-Chạy dashgo_world trên Gazebo:
+Chạy factory trên Gazebo:
 ---
-roslaunch dashgo_gazebo dashgo_gazebo.launch
+roslaunch dashgo_gazebo facotry.launch
 
 Chạy Navigation:
 ---
