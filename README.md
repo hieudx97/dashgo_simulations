@@ -49,18 +49,19 @@ rosrun dashgo_tools teleop_twist_keyboard.py
 
 Lưu bản đồ:
 ---
-rosrun map_server map_saver -f ~/dashgo_ws/map
+roscd dashgo_gazebo/maps 
+rosrun map_server map_saver -f factory_dashgo 
 
 Hướng dẫn Navigation với giả lập:
 ---
 
 Chạy factory trên Gazebo:
 ---
-roslaunch dashgo_gazebo facotry.launch
+roslaunch dashgo_gazebo factory_dashgo.launch
 
 Chạy Navigation:
 ---
-roslaunch dashgo_gazebo navigation.launch map_file:=$HOME/dashgo_ws/map.yaml
+roslaunch dashgo_gazebo navigation.launch
 
 Chạy Rviz:
 ---
